@@ -15,6 +15,7 @@ public class Main {
 
         bucketFill(display, clickPosition, colorToBeReplacedWithFillingColor, fillingColor);
 
+        System.out.println(display.toString());
     }
 
     private static void bucketFill(Display display, Position clickPosition, char colorToBeReplacedWithFillingColor, char fillingColor) throws InterruptedException {
